@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+}
+
+.login-box {
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+}
+.login-box {
+    float: left;
+    font-size: 40px;
+    border-bottom:6px #ff14c1;
+    margin-bottom: 50px;
+    padding: 13px;
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px;
+    margin: 8px;
+    border-bottom: black;
+
+}
+.textbox input{
+    border: brown;
+    outline: blue;
+    background:black;
+    color: bisque;
+    font-size: 13px;
+    width: 80px;
+    float: left;
+    margin: 10px;
+}
+.btn{
+    width: 100px;
+    background: brown;
+    border: 2px #17a2b8 solid;
+    color: blue;
+    padding: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 12px;
+}
